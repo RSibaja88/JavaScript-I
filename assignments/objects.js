@@ -11,13 +11,19 @@
 
 // Example format of an intern object: 1, examples@you.edu, Example, F
 const example = {
-  id: 0,
-  name: "Example",
-  email: "examples@you.edu",
-  gender: "F",
+    id: 0,
+    name: "Example",
+    email: "examples@you.edu",
+    gender: "F",
 }
 
-// Write your intern objects here:
+const interns = [
+    { "id": 1, "name": "Mitzi", "email": "mmelloy0@psu.edu", "gender": "F" },
+    { "id": 2, "name": "Kennan", "email": "kdiben1@tinypic.com", "gender": "M" },
+    { "id": 3, "name": "Keven", "email": "kmemmery2@wikimedia.org", "gender": "M" },
+    { "id": 4, "name": "Gannie", "email": "gmartinson3@illinois.edu", "gender": "M" },
+    { "id": 5, "name": "Antonietta", "email": "adaine5@samsung.com", "gender": "F" },
+]
 
 
 // ==== Challenge 2: Reading Object Data ==== 
